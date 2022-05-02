@@ -1,8 +1,11 @@
 import React from 'react';
+import AlgoRoutes from './Projects/Algo_Trade/AlgoRoutes';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='app'>
+      <AlgoRoutes />
+    </div>
   )
 }
 
