@@ -28,23 +28,25 @@ nav {
 }
 
 .nav-elements {
+    margin: 0 2vw;
     width: 9%;
+    height: 60%;
     justify-content: space-around;
 }
 
 .log-in-icon {
-    border: 2px solid red;
-    width: 30%;
+    width: 3vw;
     height: 6vh;
 }
 
+.log-icon {
+    border: 2px solid gray;
+    border-radius: 50%;
+    color: snow;
+    font-size: larger;
+}
 
 
-/* menu icon start */
-
-/* .mobile-menu-button-wrapper {
-    z-index: 2;
-} */
 
 .mobile-menu {
     width: 21vw;
@@ -77,6 +79,10 @@ nav {
 .mobile-menu.overlay {
     transform: translateX(0px);
 }
+
+
+
+/* menu icon start */
 
 .hamburger {
     padding: 3px 3px;
@@ -179,7 +185,23 @@ nav {
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width:1280px) {
+    .navigation {
+        height: 16vh;
+    }
+
+    .logo h4 {
+        color: snow;
+        font-size: 2vw;
+    }
+
+    .mobile-navbar {
+        margin: 8vw auto;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
     .navigation {
         height: 12vh;
         padding: 0;
@@ -190,8 +212,11 @@ nav {
     }
 
     .nav-elements {
-        width: 40%;
+        width: 20%;
     }
+}
+
+@media only screen and (max-width: 820px) {
 
     .logo img {
         width: 10vw;
@@ -241,8 +266,9 @@ nav {
     }
 
     .nav-elements {
+        border: 2px solid red;
         margin: 0 3vw;
-        width: 12%;
+        width: 21%;
     }
 
     .log-in-icon {

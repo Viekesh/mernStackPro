@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className='navigation'>
             <nav className="nav y-axis-center">
                 <div className="landing-page-link">
-                    <NavLink><h5>Home</h5></NavLink>
+                    <NavLink to='/'><h5>Home</h5></NavLink>
                 </div>
                 <div className="input-search">
                     <input type="text" className='search' />

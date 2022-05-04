@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 import logo1 from '../../Images/logo1.png';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Navigation = () => {
 
@@ -22,17 +23,18 @@ const Navigation = () => {
 
                 <div className={`mobile-menu only-mobile ${showMobMenu ? "overlay" : ""}`} >
                     <div className="mobile-navbar">
-                        <NavLink to='/'><h4 className='y-axis-center'>abc</h4></NavLink>
-                        <NavLink to='/'><h4 className='y-axis-center'>abc</h4></NavLink>
-                        <NavLink to='/'><h4 className='y-axis-center'>abc</h4></NavLink>
-                        <NavLink to='/'><h4 className='y-axis-center'>abc</h4></NavLink>
-                        <NavLink to='/'><h4 className='y-axis-center'>abc</h4></NavLink>
-                        <NavLink to='/'><h4 className='y-axis-center'>abc</h4></NavLink>
+                        <NavLink to='/'><h4 className='y-axis-center'>Price</h4></NavLink>
+                        <NavLink to='/'><h4 className='y-axis-center'>All Exchange</h4></NavLink>
+                        <NavLink to='/'><h4 className='y-axis-center'>Indicatior Store</h4></NavLink>
+                        <NavLink to='/'><h4 className='y-axis-center'>Syntax</h4></NavLink>
+                        <NavLink to='/'><h4 className='y-axis-center'>Symbol</h4></NavLink>
+                        <NavLink to='/'><h4 className='y-axis-center'>Videos</h4></NavLink>
                     </div>
                 </div>
 
                 <div className="nav-elements y-axis-center">
-                    <div className="log-in-icon">
+                    <div className="log-in-icon x-y-axis-center">
+                        <NavLink to='/LogIn' className='log-icon x-y-axis-center'><AccountCircleIcon /></NavLink>
                     </div>
 
                     <div className="menu-icon">

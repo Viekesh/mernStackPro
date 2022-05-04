@@ -1,8 +1,11 @@
 import React from 'react';
+import Slider from './Components/Slider/Slider';
 
 const LandingPage = () => {
     return (
-        <div>LandingPage</div>
+        <div>
+            <Slider />
+        </div>
     )
 }
 
