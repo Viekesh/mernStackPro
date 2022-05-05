@@ -1,12 +1,12 @@
 import React from 'react';
-import CRUDRoutes from './Projects/CRUD_App/CRUDRoutes';
+import ChatRoutes from './Projects/ChatApp/ChatRoutes';
 
 
 
 const App = () => {
   return (
     <div className='app'>
-      <CRUDRoutes />
+      <ChatRoutes />
     </div>
   )
 }
