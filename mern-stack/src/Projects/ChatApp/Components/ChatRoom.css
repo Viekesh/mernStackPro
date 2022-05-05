@@ -20,6 +20,10 @@
     height: 70%;
 }
 
+.rounded-box .box-2 {
+    float: right;
+}
+
 .form-group {
     margin: 1vw auto;
     border: 2px solid blue;
