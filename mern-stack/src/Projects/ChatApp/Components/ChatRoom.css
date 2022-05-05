@@ -1,0 +1,38 @@
+.chat-room {
+    margin: 1vw auto;
+    border: 2px solid red;
+    max-width: 50vw;
+    height: 90vh;
+    text-align: center;
+}
+
+.chat-room-header {
+    margin: 1vw auto;
+    border: 2px solid blue;
+    width: 90%;
+    text-align: center;
+}
+
+.rounded-box {
+    margin: 1vw auto;
+    border: 2px solid blue;
+    width: 90%;
+    height: 70%;
+}
+
+.form-group {
+    margin: 1vw auto;
+    border: 2px solid blue;
+    width: 90%;
+}
+
+.form-group input {
+    border: 1px solid red;
+    padding: 1vw;
+    width: 90%;
+    height: 100%;
+}
+
+.form-group button {
+    width: 10%;
+}

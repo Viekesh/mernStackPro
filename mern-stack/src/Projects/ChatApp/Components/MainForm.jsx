@@ -11,12 +11,12 @@ const MainForm = () => {
     const [data, setData] = useState({ name: "", room: "" });
 
     const handleChange = (e) => {
-        console.log(e.target.name, e.target.value);
+        // console.log(e.target.name, e.target.value);
         setData({
             ...data,
             [e.target.name]: e.target.value
-        })
-    }
+        });
+    };
 
     const validation = () => {
         if (!data.name) {
@@ -34,8 +34,8 @@ const MainForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const isValid = validation();
-        if(isValid){
-            
+        if (isValid) {
+            navigate(`/chat/${data.room}`, { state: data });
         }
     }
 
@@ -51,12 +51,13 @@ const MainForm = () => {
                 <div className="select-1">
                     <select onChange={handleChange} name="room" className='categories'>
                         <option value="">Select Room</option>
-                        <option value="gaming">Gaming</option>
-                        <option value="coding">Coding</option>
-                        <option value="socialMedia">Social Media</option>
+                        <option value="Gaming">Gaming</option>
+                        <option value="Coding">Coding</option>
+                        <option value="SocialMedia">Social Media</option>
                     </select>
                 </div>
                 <button type='submit'>Submit</button>
+                {error ? <small className='text-danger'>{error}</small> : ""}
             </form>
         </div>
     )
@@ -71,7 +72,7 @@ export default MainForm;
 // Validation checks if in input field user not enter any name or not select a room then it shows a message (given in the parenthesis) then it should return false (means if user does not enter the name or select the room, so we have show the error).
 // If validation indicate true, then we submitted the form.
 
-// When our form is submit then we call onSubmit mehtod.
+// When our form is submit then we call onSubmit method.
 
 // handleSubmit handles the form submission.
 
@@ -91,4 +92,18 @@ export default MainForm;
 
 // means user select any room then he will be redirect that route.
 
-// 
+// Now we want to see the error on the screen.
+
+// So now we code error message below button inside user interface, by this we will see error on screen. ('{error ? <small className='text-danger'>{error}</small> : ""}')
+
+// We will check if there is error then it will show the error.
+
+
+
+// Whatever room the user selects, we should see it here and the name of that user should come to us, so let's set it.
+
+// Here we go inside useNavigate in the MainForm component, here we send data by using state, which was user data.
+
+// So now we go into the ChatRoom and get the data from MainForm component.
+
+// To get data from MainForm component we will need to use "useLocation" and "useEffect"  inside the ChatRoom component.
