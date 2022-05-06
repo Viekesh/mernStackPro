@@ -1,12 +1,11 @@
 import React from 'react';
-import ChatRoutes from './Projects/ChatApp/ChatRoutes';
 
 
 
 const App = () => {
   return (
     <div className='app'>
-      <ChatRoutes />
+
     </div>
   )
 }
