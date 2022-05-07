@@ -37,5 +37,5 @@ module.exports = users;
 
 
 // userData : It is a name of cluster we created in mongoDB database, note that the cluster name
-// and the name you entered above should be same until its create new cluster automatically and
+// and the name you entered above should be same otherwise its create new cluster automatically and
 // save data on it.
