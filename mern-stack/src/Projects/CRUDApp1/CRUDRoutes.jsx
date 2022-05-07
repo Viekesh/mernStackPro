@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navigation from './Components/Navigation/Navigation';
+import UserDataInput from './Components/UserInpOutData/UserDataInput';
 import LandingPage from './LandingPage';
 
 const CRUDRoutes = () => {
@@ -9,6 +10,7 @@ const CRUDRoutes = () => {
             <Navigation />
             <Routes>
                 <Route exact path='/' element={<LandingPage />}></Route>
+                <Route exact path='/UserDataInput' element={<UserDataInput />}></Route>
             </Routes>
         </div>
     )

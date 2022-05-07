@@ -1,20 +1,26 @@
 .user-data-output {
     margin: 3vw auto;
-    border: 2px solid red;
     max-width: 100vw;
 }
 
 .user-data {
     margin: 0 auto;
-    border: 2px solid blue;
     width: 60%;
 }
 
 table {
+    border: 1px solid gray;
     margin: 0 auto;
-    border: 2px solid greenyellow;
     width: 100%;
     text-align: center;
+}
+
+table tr th {
+    border: 1px solid gray;
+}
+
+table tr td {
+    border: 1px solid gray;
 }
 
 .crud-btn {

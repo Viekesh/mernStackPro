@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './UserDataInput.css';
 
 const UserDataInput = () => {
 
@@ -41,7 +42,7 @@ const UserDataInput = () => {
                     <input onChange={setData} value={inpValue.job} type="text" name='job' placeholder='Job' className='form-control' />
                     <input onChange={setData} value={inpValue.mobile} type="number" name='mobile' placeholder='Mobile No' className='form-control' />
                     <input onChange={setData} value={inpValue.age} type="number" name='age' placeholder='Age' className='form-control' />
-                    <textarea onChange={setData} value={inpValue.description} name="description" id="" cols="30" rows="10" className='form-control' placeholder='Write Here'></textarea>
+                    <textarea onChange={setData} value={inpValue.description} name="description" id="" cols="30" rows="6" className='form-control' placeholder='Write Here'></textarea>
                 </form>
             </div>
         </div>
