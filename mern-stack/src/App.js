@@ -1,11 +1,12 @@
 import React from 'react';
+import CRUDRoutes from './Projects/CRUDApp1/CRUDRoutes.jsx';
 
 
 
 const App = () => {
   return (
     <div className='app'>
-
+      <CRUDRoutes />
     </div>
   )
 }

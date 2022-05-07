@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import '../Common.css';
+import UserDataOutput from './Components/UserInpOutData/UserDataOutput';
 
 const LandingPage = () => {
     return (
         <div className='landing-page'>
-            
+            <UserDataOutput />
         </div>
     )
 }
