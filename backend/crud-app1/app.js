@@ -15,11 +15,8 @@ app.use(express.json());
 
 app.use(router);
 
-port = 3003;
+const port = process.env.PORT || 8003;
 
 app.listen(port, () => {
     console.log(`server is start on port no. ${port}`);
 });
-
-
-

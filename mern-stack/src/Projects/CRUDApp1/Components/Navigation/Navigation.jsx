@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className='navigation'>
             <nav className="y-axis-center">
                 <div className="landing-page-link">
-                    <NavLink to='/'><h5>Home</h5></NavLink>
+                    <NavLink to='/'><h3>Home</h3></NavLink>
                 </div>
                 <div className="input-search">
                     <NavLink to="/UserDataInput"><button className='add-btn'>Add Data</button></NavLink>

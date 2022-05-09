@@ -9,7 +9,7 @@ const router = express.Router();
 //     console.log("connect");
 // });
 
-router.post("/register", async (req, res) => {
+router.post("/UserDataInput", async (req, res) => {
     // console.log(req.body);
     const { name, email, job, mobile, age, description } = req.body;
 

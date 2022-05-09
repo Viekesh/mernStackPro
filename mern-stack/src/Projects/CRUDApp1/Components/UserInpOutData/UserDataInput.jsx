@@ -33,6 +33,33 @@ const UserDataInput = () => {
     // Then we update the "setInpValue" with the help of "inpValue"
     // Let's take a look in above code we use a spread operator
 
+    const addInpData = async (e) => {
+
+        e.preventDefault();
+        const { name, email, job, mobile, age, description } = inpValue;
+
+        const res = await fetch("/UserDataInput", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                name, email, job, mobile, age, description
+            })
+        });
+
+        const data = res.json();
+        console.log(data);
+
+        if (res.status === 404 || !data) {
+            alert("error");
+            console.log("error");
+        } else {
+            alert("data added");
+            console.log("data added");
+        }
+    }
+
     return (
         <div className='user-data-input'>
             <div className="form">
@@ -43,6 +70,7 @@ const UserDataInput = () => {
                     <input onChange={setData} value={inpValue.mobile} type="number" name='mobile' placeholder='Mobile No' className='form-control' />
                     <input onChange={setData} value={inpValue.age} type="number" name='age' placeholder='Age' className='form-control' />
                     <textarea onChange={setData} value={inpValue.description} name="description" id="" cols="30" rows="6" className='form-control' placeholder='Write Here'></textarea>
+                    <button onClick={addInpData} type='button' className='form-control'>Submit</button>
                 </form>
             </div>
         </div>
@@ -50,3 +78,7 @@ const UserDataInput = () => {
 }
 
 export default UserDataInput;
+
+
+
+// Here we use fetch API to send data from frontend to backend
