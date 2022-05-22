@@ -58,7 +58,7 @@ const addBooks = async (req, res, next) => {
         });
         await book.save();
     } catch (error) {
-        console.log(error);
+        console.log(error.message);
     }
 
     if (!book) {

@@ -10,9 +10,9 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/books", router);
-
 app.use(cors);
+
+app.use("/books", router);
 
 // app.use(bodyParser.json({ limit: "30mb", extended: "true" }));
 

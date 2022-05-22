@@ -1,12 +1,12 @@
-import React from 'react';
-import CRUDRoutes from './Projects/CRUDApp1/CRUDRoutes.jsx';
+import TinderRoutes from "./Projects/TinderClone/TinderRoutes";
+
 
 
 
 const App = () => {
   return (
     <div className='app'>
-      <CRUDRoutes />
+      <TinderRoutes />
     </div>
   )
 }
