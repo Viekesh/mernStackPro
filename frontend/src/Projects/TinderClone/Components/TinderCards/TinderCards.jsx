@@ -1,46 +1,21 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import TinderCard from 'react-tinder-card';
 import './TinderCards.css';
+import axios from '../../../../axios';
 
 const TinderCards = () => {
 
-    const [people, setPeople] = useState([
-        {
-            "id": "01",
-            "name": "MongoDB",
-            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/1920px-MongoDB_Logo.svg.png"
-        },
-        {
-            "id": "02",
-            "name": "Express",
-            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
-        },
-        {
-            "id": "03",
-            "name": "React",
-            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png"
-        },
-        {
-            "id": "04",
-            "name": "Node",
-            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1024px-Node.js_logo.svg.png"
-        },
-        {
-            "id": "05",
-            "name": "Firebase",
-            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/1920px-Firebase_Logo.svg.png"
-        },
-        {
-            "id": "06",
-            "name": "Postman",
-            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png"
-        },
-        {
-            "id": "07",
-            "name": "Figma",
-            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/800px-Figma-logo.svg.png"
-        },
-    ]);
+    const [people, setPeople] = useState([]);
+
+    useEffect(() => {
+        async function fetchData() {
+            const req = await axios.get("/tinder/card");
+
+            setPeople(req.data);
+        }
+
+        fetchData();
+    }, [])
 
     const swiped = (direction, nameToDelete) => {
         console.log("removing: " + nameToDelete);
