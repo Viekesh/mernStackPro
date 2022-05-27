@@ -2,51 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc19498c-6040-40d5-ac41-4f538580b8d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/book-store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/book-store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/AlgoTrade/AlgoRoutes.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/AlgoTrade/Components/Navigation/Navigation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/AlgoTrade/Components/Navigation/Navigation.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/AlgoTrade/Components/Slider/Slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/AlgoTrade/Components/Slider/Slider.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/AlgoTrade/Data/Data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/AlgoTrade/Images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/AlgoTrade/Images/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/AlgoTrade/LandingPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/CRUDApp1/CRUDRoutes.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/CRUDApp1/Components/Navigation/Navigation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/CRUDApp1/Components/Navigation/Navigation.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/CRUDApp1/Components/UserInpOutData/UserDataInput.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/CRUDApp1/Components/UserInpOutData/UserDataInput.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/CRUDApp1/Components/UserInpOutData/UserDataOutput.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/CRUDApp1/Components/UserInpOutData/UserDataOutput.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/CRUDApp1/LandingPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/ChatApp/ChatRoutes.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/ChatApp/Components/ChatRoom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/ChatApp/Components/ChatRoom.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/ChatApp/Components/MainForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/ChatApp/Components/MainForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/ChatApp/LandingPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/Common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/ECommerceApp1/ECRoutes.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/Projects/ECommerceApp1/LandingPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-stack/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Projects/ECommerceApp1/ECRoutes.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Projects/ECommerceApp1/LandingPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
