@@ -1,10 +1,10 @@
 import React from 'react';
-import AlgoRoutes from './Projects/AlgoTrade/AlgoRoutes';
+import CRUDRoutes from './Projects/CRUDApp1/CRUDRoutes';
 
 const App = () => {
   return (
     <div>
-      <AlgoRoutes />
+      <CRUDRoutes />
     </div>
   )
 }
