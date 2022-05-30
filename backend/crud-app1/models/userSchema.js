@@ -30,7 +30,7 @@ const userSchema = new mongoose.Schema({
     },
 });
 
-const users = new mongoose.model("userData", userSchema);
+const users = new mongoose.model("crudUserData", userSchema);
 
 module.exports = users;
 

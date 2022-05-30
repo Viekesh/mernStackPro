@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const db = "mongodb+srv://mernStack:CHIN%40mernStack9@cluster0.t7asi.mongodb.net/mernStack?retryWrites=true&w=majority";
+const db = "mongodb+srv://PRO-TSTNG:CHIN%40test999@mernstackpro.wr2mo.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(db, {
     useNewUrlParser: true,
