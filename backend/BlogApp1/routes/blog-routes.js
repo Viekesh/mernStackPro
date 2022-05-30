@@ -1,4 +1,4 @@
-import { addBlog, getAllBlogs, getById, updateBlog } from "../controllers/blog-controller.js";
+import { addBlog, deleteById, getAllBlogs, getById, updateBlog } from "../controllers/blog-controller.js";
 import express from "express";
 
 
@@ -12,5 +12,7 @@ blogRouter.post("/add", addBlog);
 blogRouter.put("/update/:id", updateBlog);
 
 blogRouter.get("/:id", getById);
+
+blogRouter.delete("/:id", deleteById);
 
 export default blogRouter;
