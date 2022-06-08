@@ -12,3 +12,8 @@ const TinderRoutes = () => {
 }
 
 export default TinderRoutes;
+
+
+
+// Add this code just below private in the package.json
+// "proxy": "http://localhost:3003",

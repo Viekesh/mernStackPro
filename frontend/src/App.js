@@ -1,11 +1,11 @@
 import React from 'react';
-import CRUDRoutes from './Projects/CRUDApp1/CRUDRoutes';
+import BARoutes from "./Projects/BlogApp1/BARoutes.jsx";
 
 const App = () => {
   return (
-    <div>
-      <CRUDRoutes />
-    </div>
+    <>
+      <BARoutes />
+    </>
   )
 }
 
